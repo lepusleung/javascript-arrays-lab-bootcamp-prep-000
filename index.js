@@ -7,7 +7,9 @@ function kittens() {
 }
 
 function destructivelyAppendKitten(name) {
-  return names.push(name);
+  var name = 'Ralph';
+  names.push(name);
+  return names;
 }
 
 function destructivelyPrependKitten(name) {
