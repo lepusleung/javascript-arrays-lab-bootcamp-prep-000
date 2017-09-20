@@ -37,4 +37,3 @@ function removeLastKitten(){
 function removeFirstKitten(){
   return names.slice(1);
 }
-
